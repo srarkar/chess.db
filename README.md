@@ -1,9 +1,6 @@
 # Design Document
 
-By Rick Sarkar
-Github: Srarkar
-
-Video overview: <https://youtu.be/fbLl2SGWKL4>
+Video overview (~18 minutes): <https://www.youtube.com/watch?v=6KiQSnABFko>
 
 ## Scope
 
