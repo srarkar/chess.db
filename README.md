@@ -4,15 +4,15 @@ Video overview (~18 minutes): <https://www.youtube.com/watch?v=6KiQSnABFko>
 
 ## Scope
 
-The purpose of this database is to (theoretically) organize and store information contained in an online chess website, some real-world examples being chess.com or LiChess.
+The purpose of this database is to (theoretically) organize and store information contained in an online chess website, some real-world examples being `chess.com` or `LiChess`.
 
-My database will contain information on players, clubs, games, and puzzles.
+My database will contain information on `players`, `clubs`, `games`, and `puzzles`.
 
-The database will be based on an online chess website, not official in-person chess tournaments (FIDE). It will also not include some peripheral features of popular chess websites, such as lessons, bots, or forums.
+The database will be based on an online chess website, not official in-person chess tournaments (`FIDE`). It will also not include some peripheral features of popular chess websites, such as lessons, bots, or forums.
 
 ## Functional Requirements
 
-A user should be able to search for players that have a certain rank (ELO) or fit within a range of rank. They can even sort by ELO to see the top players in the world. The same can be done based on the age of the player's account, and if they are a titled player (i.e. International Master, Grand Master). In addition, they can see all the games that a certain user has played, and all the players within a specific club. For puzzles, a user can see the rating of the puzzle (which indicates its difficulty) as well as how many people have solved it or attempted to solve it.
+A user should be able to search for players that have a certain rank (`ELO`) or fit within a range of rank. They can even sort by ELO to see the top players in the world. The same can be done based on the `age` of the player's account. In addition, they can see all the games that a certain user has played, and all the players within a specific `club`. For puzzles, a user can see the `rating` of the puzzle (which indicates its difficulty) as well as how many people have solved it or attempted to solve it.
 
 Users can only see games that have already been completed, not ones that are currently ongoing or scheduled to happen in the future.
 I go into further detail in the ``Limitations`` section at the bottom.
