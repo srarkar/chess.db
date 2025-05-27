@@ -101,3 +101,5 @@ This database also does not tie a player's account to the specific puzzles they 
 ### Final Thoughts
 
 Note that this is not (yet!) a database used in the real world, but rather an exercise for how I would design such a relational database. Thanks for checking it out!
+<img src="https://github.com/user-attachments/assets/90d341b7-153a-4a40-9a15-c3becde9c8e6" alt="checkmate" width="100"/>
+
