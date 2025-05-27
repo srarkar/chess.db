@@ -2,6 +2,8 @@
 
 Video overview (~18 minutes): <https://www.youtube.com/watch?v=6KiQSnABFko>
 
+![image](https://github.com/user-attachments/assets/1c81e6e3-3d0a-4b58-ba3d-7471c726c519)
+
 ## Scope
 
 The purpose of this database is to (theoretically) organize and store information contained in an online chess website, some real-world examples being `chess.com` or `LiChess`.
@@ -95,3 +97,7 @@ Optimizations (views and indexes):
 One limitation is the security of the passwords -- it would be best to hash the password rather than have it stored directly in the database, using a protocol like MD5. Maintaining concurrency is also important, since we need to update `ELO` of two players at once each time a game finishes.
 
 This database also does not tie a player's account to the specific puzzles they have attempted or solved. Even if a user knows a puzzle `id`, they cannot check if they have already attempted or solved it using the database. I also cannot represent a player that can join more than 1 `club`, since there is only 1 `club_id` slot in the `players` table. In addition, there are many "special" modes on chess websites, such as 2 vs 2, Bughouse, King of the Hill, and more, which are not captured by this database since `games` are only differentiated by `2` players and the `time control`. I also lack a way to represents `tournaments` currently, which is a very common and well-used feature on chess platforms.
+
+### Final Thoughts
+
+Note that this is not (yet!) a database used in the real world, but rather an exercise for how I would design such a relational database. Thanks for checking it out!
