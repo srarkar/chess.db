@@ -1,8 +1,8 @@
-# Design Document
+# Design Document <img src="https://github.com/user-attachments/assets/1c81e6e3-3d0a-4b58-ba3d-7471c726c519" alt="knight" width="100"/>
 
 Video overview (~18 minutes): <https://www.youtube.com/watch?v=6KiQSnABFko>
 
-<img src="https://github.com/user-attachments/assets/1c81e6e3-3d0a-4b58-ba3d-7471c726c519" alt="knight" width="200"/>
+
 
 ## Scope
 
