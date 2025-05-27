@@ -26,7 +26,7 @@ I go into further detail in the ``Limitations`` section at the bottom.
 
 ### Entities
 
-The entities represented in my table are players, clubs, games, and puzzles.
+The entities represented in my table are `players`, `clubs`, `games`, and `puzzles`.
 
 `players` table:
 - id, an `INTEGER` with a `PRIMARY KEY` constraint. This will uniquely identify a specific player/account.
