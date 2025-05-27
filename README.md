@@ -2,8 +2,11 @@
 
 Video overview (~18 minutes): <https://www.youtube.com/watch?v=6KiQSnABFko>
 
-
-
+## Files
+- ``schema.sql``: This file is what creates the tables of the database itself. It contains `CREATE TABLE`, `CREATE VIEW`, and `CREATE INDEX` statements that form the database and also provide some room for optimization.
+- ``queries.sql``: This file shows some common queries a user or developer might use to prompt the database. These also are the basis for the indexes created in ``schema.sql``
+- ``er_diagram.png``: An Entity Relationship (ER) diagram depicting the four tables that make up this database and how they relate to each other.
+- 
 ## Scope
 
 The purpose of this database is to (theoretically) organize and store information contained in an online chess website, some real-world examples being `chess.com` or `LiChess`.
