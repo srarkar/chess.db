@@ -89,8 +89,6 @@ Players can play zero or many games, while a game must be played by exactly `2` 
 
 ## Optimizations
 
-In this section you should answer the following questions:
-
 Optimizations (views and indexes):
 - I created a view that JOINed the `players` and `clubs` table, so that it is easier to query what members belong to a specific club. An example of such a query can be found in `queries.sql`. I also made a view that finds the puzzles from the past month, which chess websites commonly do with a calendar, where each day has its own puzzle assigned to it. A third view lists player ids and the games they have played.
 - I create three indexes based on attributes I expected to be searched often. One was for player `usernames`, since account lookup is quite common. Another was for `club category`, since I can imagine a player wanting to filter clubs that they want to join based upon this category. Lastly, puzzles are often searched for by `release date`, with a similar logic to the second view, and so I created an index based on it.
